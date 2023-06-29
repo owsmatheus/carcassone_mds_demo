@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+    
+    - name: top_subscribers
+      description: "Top 10 subscribers"
+      columns:
+          - name: username
+            description: "Subscriber ID"
+            tests:
+                - unique
+                - not_null
