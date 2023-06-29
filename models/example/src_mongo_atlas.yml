@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mongodb
+    database: data_lake  
+    schema: mongo_atlas  
+    tables:
+      - name: user
+      - name: payments
